@@ -1,0 +1,9 @@
+services:
+  main:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    stdin_open: true
+    tty: true
+    volumes:
+      - ..:/home/user/workspace

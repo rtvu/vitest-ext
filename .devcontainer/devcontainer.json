@@ -1,0 +1,11 @@
+{
+  "name": "vitest-ext",
+  "dockerComposeFile": "../docker/compose.yaml",
+  "service": "main",
+  "workspaceFolder": "/home/user/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": ["vitest.explorer"]
+    }
+  }
+}
